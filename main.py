@@ -49,10 +49,10 @@ elif choix == "film":
     if input("Tu veux ouvrir netfix ? ") == "oui" or "y" or "ok":
         time.sleep(2)
         webbrowser.open("https://www.netflix.com/browse")
-        input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+
 
     else:
-        input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+        input("Appuie sur entrée pour continuer le programme. ;)")
 
 elif choix == "Film":
     print("Ce soir ce sera donc un film, c'est partie...\n")
@@ -61,10 +61,10 @@ elif choix == "Film":
     if input("Tu veux ouvrir netfix ? ") == "oui" or "y" or "ok":
         time.sleep(2)
         webbrowser.open("https://www.netflix.com/browse")
-        input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+        
 
     else:
-        input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+        input("Appuie sur entrée pour continuer le programme. ;)")
 
 else:
     print("je n'ai pas compris, désolée.")
