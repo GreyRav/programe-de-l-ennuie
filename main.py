@@ -22,25 +22,25 @@ if choix == "game":
     print("Ce soir ce sera donc jeux vidéo, c'est partie...\n")
     time.sleep(2)
     print(game)
-    input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+    input("Appuie sur entrée pour continuer le programme. ;)")
 
 elif choix == "Game":
     print("Ce soir ce sera donc jeux vidéo, c'est partie...\n")
     time.sleep(2)
     print(game)
-    input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+    input("Appuie sur entrée pour continuer le programme. ;)")
 
 elif choix == "Reseaux":
     print("Ce soir ce sera donc les reseaux saociaux, c'est partie...\n")
     time.sleep(2)
     print(reseaux)
-    input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+    input("Appuie sur entrée pour continuer le programme. ;)")
 
 elif choix == "reseaux":
     print("Ce soir ce sera donc les reseaux saociaux, c'est partie...\n")
     time.sleep(2)
     print(reseaux)
-    input("Appuie sur entrée pour quitter le programme et profiter de ta soirée. ;)")
+    input("Appuie sur entrée pour continuer le programme. ;)")
 
 elif choix == "film":
     print("Ce soir ce sera donc un film, c'est partie...\n")
@@ -61,7 +61,7 @@ elif choix == "Film":
     if input("Tu veux ouvrir netfix ? ") == "oui" or "y" or "ok":
         time.sleep(2)
         webbrowser.open("https://www.netflix.com/browse")
-        
+
 
     else:
         input("Appuie sur entrée pour continuer le programme. ;)")
