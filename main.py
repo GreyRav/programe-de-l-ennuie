@@ -71,11 +71,11 @@ else:
     input("tape entrée pour quitter.")
     time.sleep(2)
 
-print("Pour toute demande de rajout de jeux, de film, ou de reseaux sociaux ou de nouvelle catégorie. N'hesité pas a m'ajouter sur discord: MisterRaven#5442\nEt si le code vous interesse, c'est sur mon github: https://github.com/GreyRav/Programme-De-L-ennuie.git.\n")
+print("Pour toute demande de rajout de jeux, de film, ou de reseaux sociaux ou de nouvelle catégorie. N'hesité pas a m'ajouter sur discord: MisterRaven#5442\nEt si le code vous interesse, c'est sur mon github: https://github.com/GreyRav/programe-de-l-ennuie.git.\n")
 if input("Tu veux que j'ouvre github ?: ") == "oui" or "y" or "ok":
     print("okay je te l'ouvre...")
     time.sleep(2)
-    webbrowser.open("https://github.com/GreyRav/Programme-De-L-ennuie.git")
+    webbrowser.open("https://github.com/GreyRav/programe-de-l-ennuie.git")
 else:
     print("okay")
 
